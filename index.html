@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <title>Matrix Calculator</title>
+  </head>
+  <body>
+    <div id="container">
+      <h2 onclick="console.log(event)" id="test" class="test new">
+        Matrix Calculator
+      </h2>
+
+      <form id="matrix-form">
+        <input type="number" placeholder="Enter the length of matrix" />
+        <button>Generate</button>
+
+        <div id="inp-boxes1">
+          <!-- <input type="number" id="mat-box1" value="0"> -->
+        </div>
+
+        <br /><br />
+
+        <div id="inp-boxes2"></div>
+
+        <br /><br />
+
+        <div id="result-box"></div>
+
+        <button id="add">Add</button>
+      </form>
+    </div>
+
+    <script type="module" src="./app.js"></script>
+  </body>
+</html>
